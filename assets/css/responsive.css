@@ -1,0 +1,618 @@
+/*============================ Min - Width Query ============================*/
+
+@media (min-width: 1400px) {
+    .impl_container {
+        max-width: 1475px;
+    }
+    .impl_bg_container {
+        max-width: 1870px;
+    }
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/*============================ Max - Width Query ============================*/
+
+@media (max-width: 1875px) {
+    h3 {
+        font-size: 33px;
+    }
+    .impl_navbar .impl_logo {
+        min-width: 240px;
+    }
+    .impl_banner_text h1 {
+        font-size: 55px;
+    }
+    .impl_banner_wrapper {
+        padding: 70px 0 140px;
+    }
+    .impl_banner_section::before {
+        background-size: contain;
+    }
+    .impl_ad_img {
+        max-width: 320px;
+    }
+    .impl_newsletter_form {
+        max-width: 600px;
+    }
+    .impl_footer_img {
+        max-width: 230px;
+    }
+}
+
+@media (max-width: 1700px) {
+    h3 {
+        font-size: 32px;
+    }
+    .impl_navbar .impl_logo {
+        min-width: 230px;
+    }
+    .impl_nav_item {
+        gap: 40px;
+    }
+    .impl_banner_text h1 {
+        font-size: 50px;
+    }
+    .impl_banner_wrapper {
+        padding: 70px 0 120px;
+    }
+    .impl_ad_img {
+        max-width: 310px;
+    }
+    .impl_newsletter_form {
+        max-width: 570px;
+    }
+    .impl_newsletter_img {
+        max-width: 450px;
+    }
+    .impl_footer_wrapper {
+        overflow: hidden;
+    }
+    .impl_footer_img {
+        max-width: 210px;
+        bottom: -10px;
+        right: -50px;
+    }
+}
+
+@media (max-width: 1499.98px) {
+    h3 {
+        font-size: 31px;
+    }
+    h4 {
+        font-size: 27px;
+    }
+    .impl_navbar .impl_logo {
+        min-width: 220px;
+    }
+    .impl_nav_item,
+    .impl_navbar_nav {
+        gap: 40px;
+    }
+    .impl_banner_text h1 {
+        font-size: 45px;
+    }
+    .impl_banner_wrapper {
+        padding: 70px 0 100px;
+    }
+    .impl_banner_slider {
+        padding-left: unset;
+    }
+    .impl_ad_img {
+        max-width: 300px;
+    }
+    .impl_newsletter_img {
+        max-width: 390px;
+    }
+    .impl_footer_img {
+        max-width: 190px;
+        right: -80px;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    h3 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    .impl_navbar .impl_logo {
+        min-width: 210px;
+    }
+    .impl_nav_item,
+    .impl_navbar_nav {
+        gap: 25px;
+    }
+    .impl_navbar_btn {
+        gap: 20px;
+    }
+    .impl_banner_text h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .impl_banner_slider::before,
+    .impl_banner_slider::after {
+        left: 15px;
+    }
+    .impl_banner_wrapper {
+        padding: 70px 0 80px;
+    }
+    .impl_type_slider {
+        padding: 0 60px;
+    }
+    .impl_type_slider .swiper-button-next {
+        right: 0;
+    }
+    .impl_type_slider .swiper-button-prev {
+        left: 0;
+    }
+    .impl_ad_img {
+        max-width: 280px;
+    }
+    .impl_video_content {
+        padding: 80px 15px;
+    }
+    .impl_news_img {
+        min-width: 330px;
+    }
+    .impl_newsletter_img {
+        max-width: 310px;
+    }
+    .impl_footer_img {
+        max-width: 100px;
+        right: 0;
+    }
+    .impl_footer_social {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .impl_section_wrapper {
+        padding: 70px 0;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    h5 {
+        font-size: 21px;
+    }
+    .impl_preheader_info {
+        gap: 20px 40px;
+    }
+    .impl_navbar .impl_logo {
+        min-width: 200px;
+    }
+    .impl_res_logo,
+    .impl_toggle_btn {
+        display: block;
+    }
+    .impl_navbar_nav {
+        position: fixed;
+        left: -280px;
+        top: 0;
+        height: 100vh;
+        background-color: #fef9f5;
+        width: 280px;
+        padding: 30px 20px;
+        margin: 0;
+        z-index: 111;
+        transition: all 0.5s;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu-open .impl_navbar_nav {
+        left: 0;
+    }
+    .impl_res_logo {
+        margin-bottom: 20px;
+    }
+    .impl_navbar_nav li a {
+        padding: 0 0 5px;
+        width: 100%;
+        display: inline-flex;
+        border-bottom: 1px solid #ff5a3933;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .impl_sub_menu {
+        position: relative;
+        min-width: 100%;
+        background-color: transparent;
+        top: unset;
+        left: unset;
+        border-bottom: none;
+        transform: none;
+        height: 0;
+    }
+    .impl_menu_dd>a img {
+        display: block;
+    }
+    .impl_sub_menu.open {
+        height: 100%;
+    }
+    .impl_sub_menu li a {
+        padding: 20px 0 5px 15px;
+    }
+    .impl_banner_wrapper {
+        padding: 70px 0 70px;
+    }
+    .impl_banner_text h6,
+    .impl_banner_tab li a,
+    .impl_type_text p {
+        font-size: 17px;
+    }
+    .impl_banner_text h1 {
+        font-size: 35px;
+    }
+    .impl_banner_slider::before,
+    .impl_banner_slider::after,
+    .impl_banner_slider .swiper-button-prev,
+    .impl_banner_slider .swiper-button-next {
+        display: none;
+    }
+    .impl_ad_img {
+        max-width: 240px;
+    }
+    .impl_choose_box {
+        padding: 30px 20px 25px;
+    }
+    .impl_video_content {
+        padding: 70px 15px;
+    }
+    .impl_news_img {
+        min-width: 305px;
+    }
+    .impl_newsletter_img {
+        display: none;
+    }
+    .impl_footer_img {
+        opacity: 0.1;
+        max-width: fit-content;
+    }
+    .impl_footer_wrapper .container>.row {
+        align-items: flex-start;
+    }
+    .impl_footer_social {
+        gap: 35px;
+    }
+    .impl_history_tab {
+        margin: 25px 0 20px;
+    }
+    .impl_history_pane h6,
+    .impl_history_pane p {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .impl_section_wrapper {
+        padding: 60px 0;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    .impl_preheader_info {
+        gap: 15px 30px;
+    }
+    .impl_navbar .impl_logo {
+        min-width: unset;
+        min-height: auto;
+        padding: 10px;
+    }
+    .impl_banner_dropdown span {
+        padding: 0 20px;
+    }
+    .impl_banner_text h6,
+    .impl_banner_tab li a,
+    .impl_type_text p {
+        font-size: 16px;
+    }
+    .impl_banner_text h1 {
+        font-size: 32px;
+    }
+    .impl_banner_wrapper {
+        padding: 60px 0;
+    }
+    .impl_ad_img {
+        opacity: 0.1;
+    }
+    .impl_offer_wrapper {
+        background: #303030;
+        border-left: 8px solid var(--impl-primary-color);
+        border-right: 8px solid var(--impl-primary-color);
+        border-radius: 20px;
+    }
+    .impl_choose_text {
+        margin-bottom: 30px;
+    }
+    .impl_testi_client {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .impl_video_content {
+        background-position: center;
+        border-radius: 10px;
+        padding: 60px 15px;
+    }
+    .impl_footer_social {
+        gap: 30px;
+    }
+    .impl_footer_social li a svg {
+        max-height: 24px;
+    }
+    .impl_service_tab li {
+        width: calc(100% / 3);
+    }
+}
+
+@media (max-width: 767.98px) {
+    body {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    h5 {
+        font-size: 19px;
+    }
+    h6,
+    .impl_footer_heading h6,
+    .table-responsive .table>thead tr th {
+        font-size: 17px;
+    }
+    .impl_section_wrapper {
+        padding: 50px 0;
+    }
+    .impl_preheader_content,
+    .impl_preheader_info {
+        justify-content: center;
+    }
+    .impl_header_btn {
+        display: none;
+    }
+    .impl_banner_wrapper {
+        padding: 50px 0;
+    }
+    .impl_banner_tab {
+        gap: 40px;
+    }
+    .impl_banner_dropdown span,
+    .impl_banner_dropdown span:first-child {
+        padding: 0 5px;
+    }
+    .impl_banner_text h6,
+    .impl_banner_tab li a,
+    .impl_type_text p {
+        font-size: 15px;
+    }
+    .impl_banner_text h1 {
+        font-size: 30px;
+    }
+    .impl_banner_slider {
+        margin-top: 20px;
+    }
+    .impl_ad_img {
+        max-width: 280px;
+        opacity: 1;
+    }
+    .impl_testi_client {
+        align-items: center;
+        flex-direction: row;
+    }
+    .impl_video_content {
+        padding: 50px 15px;
+    }
+    .impl_video_content a {
+        margin: 20px auto 0;
+    }
+    .impl_news_card {
+        flex-wrap: wrap;
+    }
+    .impl_news_full {
+        padding: 0 20px 25px;
+    }
+    .impl_footer_text {
+        max-width: 100%;
+    }
+    .impl_footer_social {
+        gap: 30px;
+    }
+    .impl_footer_social li a svg {
+        max-height: 22px;
+    }
+    .impl_service_tab li {
+        width: calc(100% / 2);
+    }
+    .impl_service_tab li a {
+        padding: 20px;
+    }
+    .impl_map_content iframe {
+        height: 400px;
+    }
+    .impl_sell_tab {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    body,
+    .impl_tags {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h6,
+    .impl_footer_heading h6,
+    .table-responsive .table>thead tr th {
+        font-size: 16px;
+    }
+    .impl_section_wrapper {
+        padding: 40px 0;
+    }
+    .impl_section_heading {
+        margin-bottom: 0;
+    }
+    .impl_btn {
+        min-width: fit-content;
+        min-height: 40px;
+    }
+    .impl_preheader_content {
+        justify-content: space-between;
+    }
+    .impl_preheader_info,
+    .impl_banner_dropdown span::after {
+        display: none;
+    }
+    .impl_user_login {
+        display: block;
+    }
+    .impl_nav_item {
+        gap: 15px;
+    }
+    .impl_navbar_btn {
+        gap: 10px;
+    }
+    .impl_banner_wrapper {
+        padding: 40px 0;
+    }
+    .impl_banner_text h6,
+    .impl_banner_tab li a,
+    .impl_type_text p {
+        font-size: 14px;
+    }
+    .impl_banner_tab {
+        gap: 30px;
+    }
+    .impl_banner_form {
+        padding: 8px;
+    }
+    .impl_banner_form,
+    .impl_banner_dropdown {
+        flex-wrap: wrap;
+    }
+    .impl_banner_btn,
+    .impl_banner_btn .impl_btn {
+        width: 100%;
+    }
+    .impl_banner_text h1 {
+        font-size: 28px;
+    }
+    .impl_banner_slider {
+        margin-top: 10px;
+    }
+    .impl_type_wrapper {
+        padding-bottom: 100px;
+    }
+    .impl_type_slider {
+        padding: unset;
+    }
+    .impl_type_slider .swiper-button-prev,
+    .impl_type_slider .swiper-button-next {
+        top: unset;
+        bottom: -60px;
+    }
+    .impl_type_slider .swiper-button-prev {
+        left: calc(50% - 45px);
+    }
+    .impl_type_slider .swiper-button-next {
+        right: calc(50% - 45px);
+    }
+    .impl_ad_img {
+        max-width: 100%;
+        opacity: 0.1;
+    }
+    .impl_explore_img::before {
+        min-width: 120px;
+        bottom: -7px;
+    }
+    .impl_explore_links {
+        gap: 5px;
+    }
+    .impl_explore_links li a {
+        width: 30px;
+        height: 30px;
+    }
+    .impl_testimonial_box {
+        padding: 20px 0;
+    }
+    .impl_testimonial_head {
+        padding-bottom: 15px;
+    }
+    .impl_testi_client {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .impl_testi_client,
+    .impl_testimonial_text {
+        padding: 0 20px;
+    }
+    .impl_testimonial_text {
+        margin-top: 15px;
+    }
+    .impl_testi_quote {
+        max-width: 40px;
+    }
+    .impl_testi_shape {
+        max-width: 125px;
+    }
+    .impl_newsletter_form input {
+        min-height: 40px;
+        padding: 10px 105px 10px 15px;
+    }
+    .impl_footer_social {
+        gap: 20px;
+    }
+    .impl_footer_social li a svg {
+        max-height: 20px;
+    }
+    .impl_booking_box::before {
+        display: none;
+    }
+    .impl_service_tab li a {
+        padding: 20px 10px;
+    }
+    .impl_service_tab li a svg {
+        width: 45px;
+    }
+    .impl_service_img img {
+        min-height: 100%;
+    }
+    .impl_filter_dd {
+        min-width: unset;
+    }
+    .impl_input_flex {
+        flex-wrap: wrap;
+    }
+    .impl_contact_box,
+    .impl_contact_form {
+        padding: 20px 15px;
+    }
+    .impl_map_content iframe {
+        height: 300px;
+    }
+}
+
+@media (max-width: 399.98px) {}
